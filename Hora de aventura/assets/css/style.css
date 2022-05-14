@@ -1,0 +1,340 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif,
+    Times, serif;
+  margin: 0%;
+}
+h2,p{
+  color: rgb(4, 159, 187);
+}
+
+body {
+  background-image: url("../imagem/casa3.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100vw 100vh;
+  opacity: 0.92;
+  position: relative;
+}
+h2 {
+  margin-left: 1rem;
+}
+
+h1 {
+  font-size: 5rem;
+  color: rgb(221, 10, 10);
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 40rem;
+  margin: auto;
+  border: 0.1rem solid rgb(255, 255, 255);
+  border-radius: 2rem;
+  box-shadow: 0.1rem 0.1rem;
+  padding: 1.5rem;
+  background-color: rgb(252, 32, 233);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: rgb(4, 159, 187);
+  border: none;
+  color: rgb(231, 235, 10);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 0.2rem;
+}
+
+button:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+form input:not(input[type="checkbox"]) {
+  width: 80%;
+  margin-bottom: 1rem;
+}
+
+.checkboxAlign {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin-bottom: 1rem;
+  color: rgb(41, 106, 163);
+}
+
+.checkboxAlign input {
+  margin-right: 0.5rem;
+}
+
+.divForm {
+  display: flex;
+}
+
+.upper {
+  display: flex;
+  background-color: #d80000;
+}
+
+.upperLeftSide {
+  width: 50%;
+  text-align: left;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0.5rem;
+}
+
+.upperRightSide {
+  width: 50%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0.5rem;
+}
+
+.upperIcons {
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+  text-align: center;
+  background-color: rgb(#d80000);
+}
+
+.upperIcons img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+ul {
+  padding: 0%;
+}
+
+li {
+  display: inline;
+  padding: 0.5rem;
+  font-size: 2rem;
+}
+
+a:link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  background-color: rgb(8, 148, 230);
+}
+
+.title img{
+  width: 50%;
+  height: 13rem;
+}
+
+.subTitle {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: auto;
+  padding-bottom: 0.5rem;
+  background-color: rgb(230, 4, 4);
+}
+
+.subTitle p{
+  color: white;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(8, 148, 230);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.bottomLeftSide {
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.bottomLeftSide p{
+  color: rgb(255, 255, 255);
+}
+.bottomRightSide {
+  display: flex;
+  text-align: right;
+  align-items: flex-end;
+  justify-content: end;
+  width: 30%;
+}
+
+.bottomRightSide img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.realmPart {
+  display: flex;
+  justify-content: center;
+  margin-left: 0rem;
+}
+
+.cards {
+  display: grid;
+  grid-gap: 0 100px;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 2rem;
+  margin: 1rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  font-size: 2.5rem;
+}
+
+.cards div {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  /*width: 33.33%;*/
+  width: 20rem;
+  height: auto;
+  margin: 1rem;
+  border: 0.1rem solid rgb(8, 148, 230);
+  border-radius: 2rem;
+  box-shadow: 10px 10px 50px 5px rgb(55, 55, 55);
+  padding: 1rem;
+  background-color: rgb(255, 239, 239);
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.about div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40rem;
+  background-color: rgb(8, 148, 230);
+  border: 0.1rem solid rgb(255, 255, 255);
+  border-radius: 2rem;
+  box-shadow: 0.1rem 0.1rem;
+}
+
+.about img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  border: 0.1rem solid rgb(238, 230, 230);
+  margin: 2rem;
+}
+
+.about div p {
+  text-align: center;
+  margin: 1rem;
+  color: rgb(255, 255, 255);
+}
+
+#newsletter {
+  display: flex;
+  text-align: center;
+  margin: 1.5rem;
+}
+#newsletter label{
+  color: rgb(255, 255, 255);
+}
+
+@media (max-width: 1400px) {
+  .upper,
+  .bottom,
+  .upperRightSide,
+  .about div {
+    flex-direction: column;
+  }
+
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .bottomRightSide {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  form,
+  .about div {
+    width: 30rem;
+  }
+
+  .upperLeftSide,
+  .upperRightSide {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 900px) {
+  li {
+    display: block;
+    text-align: center;
+  }
+  .about img {
+    width: 7.5rem;
+    height: 7.5rem;
+    border-radius: 50%;
+    border: 0.1rem solid rgb(255, 255, 255);
+    margin: 2rem;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  form,
+  .about div {
+    width: 15rem;
+  }
+}
